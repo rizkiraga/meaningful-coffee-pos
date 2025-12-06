@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Meaningful Coffee POS ☕
 
-## Getting Started
+A modern, full-stack Point of Sale (POS) application built for coffee shops. This project demonstrates a comprehensive understanding of modern web development practices, focusing on performance, user experience, and real-world functionality.
 
-First, run the development server:
+![Dashboard Preview](https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&q=80&w=1000)
+*(Note: Replace with actual screenshot of your dashboard)*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Point of Sale (POS) Interface**: Fast and intuitive interface for cashiers to process orders.
+  - Product categorization (Coffee, Non-Coffee, Snacks).
+  - Real-time cart management with tax calculation.
+  - Multiple payment methods (Cash, QRIS).
+  - **Receipt Generation**: Automatic thermal-printer style receipt preview and printing.
+- **Dashboard & Analytics**: Real-time insights into business performance.
+  - Sales charts and trends.
+  - Top-selling products.
+  - Key metrics (Revenue, Orders, Average Order Value).
+  - **Date Filtering**: Analyze data by daily, monthly, or custom date ranges.
+- **Order Management**: Comprehensive history of all transactions.
+  - Status tracking.
+  - **Excel Export**: Download detailed financial reports for accounting.
+- **Menu Management**: CRUD operations for managing products.
+- **Responsive Design**: Fully optimized for tablets and desktop screens.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**: [Shadcn/ui](https://ui.shadcn.com/)
+- **State Management**: React Hooks & LocalStorage (for demo persistence)
+- **Charts**: [Recharts](https://recharts.org/)
+- **Date Handling**: [date-fns](https://date-fns.org/)
+- **Export**: [SheetJS (xlsx)](https://sheetjs.com/)
 
-## Learn More
+## 🏃‍♂️ Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/meaningful-coffee-pos.git
+   cd meaningful-coffee-pos
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💡 Key Highlights for Reviewers
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Component Architecture**: Modular and reusable components (e.g., `ProductCard`, `StatsCard`, `Sidebar`).
+- **Client-Side Persistence**: Uses `localStorage` to simulate a backend database, allowing full feature demonstration without server setup.
+- **Type Safety**: Full TypeScript implementation for robust code quality.
+- **UX Details**: Custom toast notifications, loading states, and smooth transitions.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
