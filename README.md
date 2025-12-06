@@ -2,6 +2,9 @@
 
 A modern, full-stack Point of Sale (POS) application built for coffee shops. This project demonstrates a comprehensive understanding of modern web development practices, focusing on performance, user experience, and real-world functionality.
 
+![Dashboard Preview](https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&q=80&w=1000)
+*(Note: Replace with actual screenshot of your dashboard)*
+
 
 ## 🚀 Features
 
